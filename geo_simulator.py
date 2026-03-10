@@ -81,7 +81,7 @@ def fetch_ai_overview(query: str) -> list:
         "q": query,
         "api_key": SERPAPI_KEY,
         "engine": "google",
-        "gl": "us",
+        "gl": "np",
         "hl": "en"
     }
     search = GoogleSearch(params)
@@ -230,7 +230,7 @@ def run_simulation(source: str, query: str,
     print(f"\n{'='*60}\n")
 
 
-# ─── Run it ───────────────────────────────────────────────────
+
 if __name__ == "__main__":
 
     # ── OPTION A: URL input (live page, most authentic) ──────
@@ -243,8 +243,8 @@ if __name__ == "__main__":
 
     # ── OPTION B: Markdown file (pre-publish testing) ────────
     run_simulation(
-        source="drafts/my_article.md",        # ← path to your .md file
-        query="your target query here",        # ← your target query
+        source="drafts/my_article.md",        
+        query="Best trekking destinations in Nepal",
         input_type="file",
         top_k=5
     )

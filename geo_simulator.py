@@ -491,6 +491,7 @@ def display_report(source, query, d1, d2, d3, d4, d5, overall):
 def save_report(source, input_type, query,
                 chunks, d1, d2, d3, d4, d5, overall):
 
+    os.makedirs("reports", exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     label     = (os.path.basename(source).replace(".md", "")
                  if input_type == "file"

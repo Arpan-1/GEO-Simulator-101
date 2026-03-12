@@ -29,3 +29,6 @@ secrets.yaml
 # Generated reports
 reports/
 drafts/
+*.json
+*.csv
+*.md

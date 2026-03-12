@@ -508,7 +508,7 @@ else:
     ---
 
     ### About The System
-    A system developed by Arpan Chaudhary, to understand the working mechanism of the Generative Engine and 
+    A system developed by Arpan Chaudhary, to understand the working mechanism of the Generative Engine in a controlled environment. The system helps to predict how the content may actually perform for the real generative engine, before they are published on the internet.
 
     ---
 

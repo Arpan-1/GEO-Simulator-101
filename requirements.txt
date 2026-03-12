@@ -6,7 +6,6 @@ google-genai
 google-generativeai
 trafilatura
 python-dotenv
-serpapi
 google-search-results
 openai
 markdown

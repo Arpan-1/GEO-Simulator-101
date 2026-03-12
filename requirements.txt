@@ -7,6 +7,7 @@ google-generativeai
 trafilatura
 python-dotenv
 google-search-results
+serpapi
 openai
 markdown
 beautifulsoup4

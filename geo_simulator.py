@@ -6,7 +6,10 @@ import markdown
 from bs4 import BeautifulSoup
 from datetime import datetime
 from dotenv import load_dotenv
-from serpapi import GoogleSearch
+try:
+    from serpapi import GoogleSearch
+except ImportError:
+    from serpapi.google_search import GoogleSearch
 from openai import OpenAI
 from llama_index.core import Document, VectorStoreIndex, Settings
 from llama_index.core.node_parser import SentenceSplitter
